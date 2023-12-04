@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from . import base
 from .auto_corr import AutoCorr
+from .chisquare import ChiSquare
 from .count import Count
 from .cov import Cov
 from .entropy import Entropy
@@ -32,6 +33,7 @@ __all__ = [
     "AbsMax",
     "AutoCorr",
     "BayesianMean",
+    "ChiSquare",
     "Count",
     "Cov",
     "Entropy",
