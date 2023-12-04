@@ -15,6 +15,12 @@ class ChiSquare(base.Transformer):
         self.observed_frequencies[x][y] += 1
         self.total_samples += 1
         print("Update func works!!!")
+
+    '''
+    Area to work on. Code is not giving the desired output.
+    Find the issue: (Is it the lib implementation or stats compution?)
+    
+    '''
     def chi_squared_test(self):
         observed_matrix = [
             [self.observed_frequencies[x][y] for y in self.observed_frequencies[x]]
